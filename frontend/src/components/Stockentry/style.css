@@ -1,0 +1,131 @@
+/* style.css */
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+/* .navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 0 20px;
+} */
+
+/* Date input styles */
+label {
+  font-size: 1rem;
+  margin: left 4px;
+  display: block;
+  margin-top: 10px;
+  text-align: end;
+  
+  
+}
+#refresh-captcha {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+#refresh-captcha:hover {
+  background-color: #45a049;
+}
+#datefield {
+  width: 10%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Table styles */
+.table {
+  width: 70%;
+  margin: 20px auto;
+  background-color:white
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: whitesmoke;
+}
+
+/* Captcha and buttons styles */
+.inline {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  min-height: auto;
+
+
+
+}
+
+#user-input {
+  margin-top: 10px;
+
+}
+
+#submit {
+  padding: 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  margin-bottom: 5px ;
+
+}
+
+#image {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: #fff;
+  padding: 3px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  user-select: none;
+}
+
+#btn {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+#btn[type="reset"] {
+  background-color: #ccc;
+  margin: 1%;
+}
+
+/* Alert styles */
+.alert {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.alert.success {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.alert.error {
+  background-color: #f44336;
+  color: #fff;
+}
+/* style.css */
+
